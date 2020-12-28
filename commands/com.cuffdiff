@@ -1,0 +1,7 @@
+WORKDIR=/home/guest/Downloads/gencommand_proj4/
+THDIR=/home/guest/Downloads/gencommand_proj4/alignments
+ANNOT=/home/guest/Downloads/gencommand_proj4/athal_genes.gtf
+
+cuffdiff -o $WORKDIR/differences -p 10 $WORKDIR/merging/merged.gtf \
+          $THDIR/Day8/accepted_hits.bam $THDIR/Day16/accepted_hits.bam
+           

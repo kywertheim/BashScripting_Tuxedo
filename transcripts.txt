@@ -1,0 +1,2 @@
+/home/guest/Downloads/gencommand_proj4/assembly/Day8/transcripts.gtf
+/home/guest/Downloads/gencommand_proj4/assembly/Day16/transcripts.gtf

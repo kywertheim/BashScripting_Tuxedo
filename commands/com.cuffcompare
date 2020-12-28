@@ -1,0 +1,12 @@
+DATADIR=/home/guest/Downloads/gencommand_proj4/assembly
+REFDIR=/home/guest/Downloads/gencommand_proj4/
+WORKDIR=/home/guest/Downloads/gencommand_proj4/comparison
+
+mkdir -p $WORKDIR/Day8
+cd $WORKDIR/Day8
+cuffcompare -r $REFDIR/athal_genes.gtf -R -o Day8 $DATADIR/Day8/transcripts.gtf
+
+mkdir -p $WORKDIR/Day16
+cd $WORKDIR/Day16
+cuffcompare -r $REFDIR/athal_genes.gtf -R -o Day16 $DATADIR/Day16/transcripts.gtf
+

@@ -1,0 +1,4 @@
+WORKDIR=/home/guest/Downloads/gencommand_proj4/
+ANNOT=/home/guest/Downloads/gencommand_proj4/athal_genes.gtf
+
+cuffmerge -g $ANNOT -p 8 -o $WORKDIR/merging transcripts.txt

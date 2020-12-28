@@ -1,0 +1,15 @@
+DATADIR=/home/guest/Downloads/gencommand_proj4/
+WORKDIR=/home/guest/Downloads/gencommand_proj4/alignments
+BWT2IDX=/home/guest/Downloads/gencommand_proj4/athal/athal
+
+mkdir -p $WORKDIR/Day8
+
+tophat2 -o $WORKDIR/Day8 -p 10 \
+        $BWT2IDX \
+        $DATADIR/Day8.fastq
+
+mkdir -p $WORKDIR/Day16
+
+tophat2 -o $WORKDIR/Day16 -p 10 \
+        $BWT2IDX \
+        $DATADIR/Day16.fastq    
