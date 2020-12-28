@@ -4,6 +4,7 @@ Context: This is the solution to the fourth exam of the Coursera course entitled
 About:
 1. Working within a Unix shell, the Bash script 'analysis.sh' performs the RNA-seq Tuxedo pipeline.
 2. Some of the commands are redundant. For example, 'samtools view alignments/Day16/accepted_hits.bam | cut -f6 | grep "N" | wc -l' and 'samtools view alignments/Day16/accepted_hits.bam | cut -f6 | grep -c "N"' generate equivalent results.
+3. If running analysis.sh leads to an error, try executing the commands therein one at a time.
 
 Files:
 1. Day8.fastq and Day16.fastq are the raw sequencing datasets.
